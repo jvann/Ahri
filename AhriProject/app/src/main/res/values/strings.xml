@@ -5,4 +5,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <!-- Agenda -->
+    <!-- Agenda Fragment -->
+    <string name="agenda_fragment_title">Your day</string>
 </resources>
