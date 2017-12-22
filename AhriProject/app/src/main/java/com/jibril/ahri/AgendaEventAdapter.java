@@ -33,7 +33,6 @@ public class AgendaEventAdapter extends ArrayAdapter<Event> {
         TextView tv_event_name = (TextView) convertView.findViewById(R.id.text_event_name);
         TextView tv_event_datetime = (TextView) convertView.findViewById(R.id.text_event_datetime);
         ImageView iv_event_status = (ImageView) convertView.findViewById(R.id.image_event_status);
-        ImageView iv_event_divider = (ImageView) convertView.findViewById(R.id.image_divider);
 
         //Get event item
         Event event = getItem(position);
@@ -41,8 +40,7 @@ public class AgendaEventAdapter extends ArrayAdapter<Event> {
         //Set elements
         tv_event_name.setText("getName()");
         tv_event_datetime.setText("getDateTime");
-        iv_event_status.setImageResource(R.mipmap.ic_done_white_24dp);
-        iv_event_divider.setImageResource(R.drawable.divider_simple);
+        iv_event_status.setImageResource(R.mipmap.ic_done_white_48dp);
 
         return convertView;
     }

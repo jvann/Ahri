@@ -53,6 +53,28 @@ public class AgendaFragment extends ListFragment {
         ArrayList<Event> listEvent = new ArrayList<Event>();
         Event e = new Event("Success", "Wed", "1pm");
         listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
+        e = new Event("Success", "Wed", "1pm");
+        listEvent.add(e);
 
         return listEvent;
     }
