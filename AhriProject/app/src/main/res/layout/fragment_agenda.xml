@@ -34,10 +34,11 @@
             android:id="@+id/text_agenda_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorText"
             android:text="@string/agenda_fragment_title" />
 
         <ListView
-            android:id="@+id/list_agenda"
+            android:id="@android:id/list"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
