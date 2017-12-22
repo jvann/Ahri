@@ -41,8 +41,8 @@ public class AgendaEventAdapter extends ArrayAdapter<Event> {
         //Set elements
         tv_event_name.setText("getName()");
         tv_event_datetime.setText("getDateTime");
-//        iv_event_status.setImageResource(R.mipmap.ic_launcher_round);
-//        iv_event_divider.setImageResource(R.raw.divider_diamond);
+        iv_event_status.setImageResource(R.mipmap.ic_done_white_24dp);
+        iv_event_divider.setImageResource(R.drawable.divider_simple);
 
         return convertView;
     }
