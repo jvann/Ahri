@@ -30,7 +30,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/text_finance_title"
+            android:id="@+id/text_finance_title2"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:background="@color/colorPrimary"
@@ -86,6 +86,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/divider_simple" />
+
+        <TextView
+            android:id="@+id/text_finance_graph"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/finance_fragment_graph"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorText"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
