@@ -22,7 +22,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="@dimen/first_fab_margin"
         android:layout_marginEnd="@dimen/right_fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@mipmap/ic_account_balance_white_36dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -97,6 +97,15 @@
             android:textAlignment="textStart"
             android:textColor="@color/colorText"
             android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/graph"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_launcher_background" />
 
     </LinearLayout>
 
