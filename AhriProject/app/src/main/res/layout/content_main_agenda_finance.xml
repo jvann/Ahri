@@ -11,15 +11,15 @@
     tools:showIn="@layout/app_bar_main_agenda_finance">
 
     <fragment
-        android:id="@+id/agenda_fragment"
+        android:id="@+id/fragment_agenda"
         android:name="com.jibril.ahri.AgendaFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.5" />
+        android:layout_weight="1.25" />
 
     <fragment
-        android:id="@+id/agenda_fragment2"
-        android:name="com.jibril.ahri.AgendaFragment"
+        android:id="@+id/fragment_finance"
+        android:name="com.jibril.ahri.FinanceFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" />

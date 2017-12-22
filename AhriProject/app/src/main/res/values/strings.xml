@@ -9,4 +9,10 @@
     <!-- Agenda -->
     <!-- Agenda Fragment -->
     <string name="agenda_fragment_title">Your day</string>
+
+    <!-- Finance -->
+    <!-- Finance Fragment -->
+    <string name="finance_fragment_title">Your balance</string>
+    <string name="finance_balance">Balance:</string>
+    <string name="finance_balance_value">$0.00</string>
 </resources>

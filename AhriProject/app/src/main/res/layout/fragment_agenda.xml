@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="@dimen/second_fab_margin"
-        android:layout_marginRight="@dimen/right_fab_margin"
+        android:layout_marginEnd="@dimen/right_fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
     <android.support.design.widget.FloatingActionButton
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="@dimen/first_fab_margin"
-        android:layout_marginRight="@dimen/right_fab_margin"
+        android:layout_marginEnd="@dimen/right_fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
     <LinearLayout
@@ -35,6 +35,8 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:background="@color/colorPrimary"
+            android:paddingBottom="2dp"
+            android:paddingEnd="20dp"
             android:paddingStart="20dp"
             android:paddingTop="2dp"
             android:text="@string/agenda_fragment_title"
