@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jibril.ahri.CreateQuickEventFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/image_btn_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/image_div_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider_simple" />
+
+        <TextView
+            android:id="@+id/text_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edit_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Event Name Edit"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/image_div_mid_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider_simple" />
+
+        <TextView
+            android:id="@+id/text_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edit_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="time"
+            android:text="Duration Edit"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/image_div_mid_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider_simple" />
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textAlignment="center" />
+
+        <DatePicker
+            android:id="@+id/datePicker_Event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:scaleX="1"
+            android:scaleY="1" />
+
+        <ImageView
+            android:id="@+id/image_div_mid_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider_simple" />
+
+        <TextView
+            android:id="@+id/text_timePicker_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time Picker Text"
+            android:textAlignment="center" />
+
+        <TimePicker
+            android:id="@+id/timePicker_Event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner" />
+
+        <ImageView
+            android:id="@+id/image_div_bot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider_simple" />
+
+        <Button
+            android:id="@+id/button_create_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create my event, Ahri!"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>

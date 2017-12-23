@@ -1,6 +1,7 @@
 package com.jibril.ahri;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
@@ -61,6 +62,8 @@ public class AgendaFragment extends ListFragment implements View.OnClickListener
         {
             case R.id.fab_create_quick_event:
                 Log.d("FAB", "QuickEvent");
+                Intent intent = new Intent(getActivity(), CreateEventActivity.class );
+                startActivity(intent);
                 break;
             case R.id.fab_create_event:
                 Log.d("FAB", "Event");
