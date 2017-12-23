@@ -51,7 +51,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
@@ -60,11 +60,11 @@
                 android:layout_height="45dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_weight="1.5"
+                android:layout_weight="1.2"
                 android:text="@string/finance_balance"
-                android:textAlignment="center"
+                android:textAlignment="textEnd"
                 android:textColor="@color/colorText"
-                android:textSize="30sp"
+                android:textSize="26sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -77,7 +77,7 @@
                 android:text="@string/finance_balance_value"
                 android:textAlignment="textStart"
                 android:textColor="@color/colorText"
-                android:textSize="30sp"
+                android:textSize="26sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -102,6 +102,7 @@
             android:id="@+id/graph"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
             android:adjustViewBounds="false"
             android:cropToPadding="false"
             android:scaleType="fitCenter"
